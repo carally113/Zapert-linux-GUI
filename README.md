@@ -85,19 +85,6 @@ sudo dnf install ./zapret-gui-*.noarch.rpm
 sudo zypper install --allow-unsigned-rpm ./zapret-gui-*.noarch.rpm
 ```
 
-### Arch Linux (AUR)
-```bash
-yay -S zapret-gui        # стабильный релиз
-yay -S zapret-gui-git    # свежий код из main
-```
-
-Или вручную:
-```bash
-git clone https://aur.archlinux.org/zapret-gui.git
-cd zapret-gui
-makepkg -si
-```
-
 ## 🔗 Источники
 
 Проект построен на основе:
@@ -125,14 +112,12 @@ makepkg -si
 
 ## 📧 Поддержка
 
-- 📢 [Telegram Channel](https://t.me/your_channel)
-- 💬 [Telegram Chat](https://t.me/your_chat)
 - 🔗 [Issues](../../issues) — сообщайте об ошибках
 - 🔀 [Pull Requests](../../pulls) — предложения улучшений приветствуются!
 
 ## 📊 Статистика
 
-- **Поддерживаемые ОС:** Debian, Ubuntu, Linux Mint, Fedora, openSUSE, Arch Linux, Manjaro и др.
+- **Поддерживаемые ОС:** Debian, Ubuntu, Linux Mint, Fedora, openSUSE и др.
 - **Окружения рабочего стола:** GNOME, KDE, XFCE, Cinnamon и др.
 - **Архитектуры:** пакет noarch (Python); nfqws — в зависимости от zapret
 - **Версия:** 1.1.0
