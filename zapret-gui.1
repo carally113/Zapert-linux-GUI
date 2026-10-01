@@ -1,0 +1,32 @@
+.TH ZAPRET-GUI 1 "October 2026" "zapret-gui" "User Commands"
+.SH NAME
+zapret-gui \- graphical frontend for zapret-discord-youtube-linux
+.SH SYNOPSIS
+.B zapret-gui
+[\fB\-\-minimized\fR] [\fB\-\-version\fR]
+.SH DESCRIPTION
+.B zapret-gui
+controls zapret-discord-youtube-linux: selects a strategy, network interface,
+GameFilter and firewall backend, starts and stops zapret, manages the
+autostart service, edits user host lists and runs strategy auto-tuning in a
+built-in terminal. A tray icon shows the current state.
+.PP
+On first launch the program offers to download zapret-discord-youtube-linux
+into \fI~/zapret-discord-youtube-linux\fR.
+.SH OPTIONS
+.TP
+.B \-\-minimized
+Start hidden in the system tray.
+.TP
+.B \-\-version
+Print the version and exit.
+.SH FILES
+.TP
+.I ~/.config/zapret-gui/settings.json
+GUI settings.
+.TP
+.I ~/.cache/zapret-gui/run.log
+Output of the last zapret run started from the GUI.
+.SH SEE ALSO
+.BR sudo (8),
+.BR nft (8)

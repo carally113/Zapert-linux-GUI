@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Zapret GUI
+GenericName=DPI bypass control
+Comment=Управление zapret (обход блокировок Discord/YouTube)
+Exec=zapret-gui
+Icon=zapret-gui
+Terminal=false
+Categories=Network;
+Keywords=zapret;youtube;discord;dpi;nfqws;
+StartupWMClass=zapret-gui
